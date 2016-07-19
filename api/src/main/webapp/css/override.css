@@ -1,0 +1,9 @@
+/*¸²¸Çeasy - panels µÄÑùÊ½  */
+.tabs-panels {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px; 
+    border-style: none; 
+    border-top-width: 0;
+    overflow: hidden;
+}

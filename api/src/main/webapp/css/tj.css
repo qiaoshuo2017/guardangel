@@ -1,0 +1,45 @@
+.promt {
+	text-align: left;
+	color: #F00;
+}
+
+td {
+	height: 40px;
+}
+
+.inputs {
+	border: 1px solid #333;
+	width: 220px;
+	float: left;
+}
+
+.left {
+	width: 120px;
+	text-align: center;
+	padding-right: 5px;
+	width: 200px;
+}
+
+.red {
+	color: #ff0000;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+a:link {
+	color: #666;
+}
+
+a:visited {
+	color: #666;
+}
+
+.demo-rtl .portal-column-left {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.demo-rtl .portal-column-right {
+	padding-left: 10px;
+	padding-right: 0;
+}

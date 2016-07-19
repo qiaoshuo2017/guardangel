@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.makerstreet.hdb.dao.UserDao">
+<select id="isPhoneExist" parameterType="com.makerstreet.hdb.model.UserModel" resultType="com.makerstreet.hdb.model.UserModel">
+select UserID from users where MobilePhone=#{MobilePhone,jdbcType=VARCHAR}
+</select>
+
+
+
+
+</mapper>

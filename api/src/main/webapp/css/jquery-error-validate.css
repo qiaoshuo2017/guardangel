@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.invalid{
+	color:Red; 
+	font-size:13px; 
+	margin-left: 4px;
+}
